@@ -7,7 +7,7 @@ const Rightsidebar = (props) => {
         <div className='right-side-bar'>
             <div className='right-side-bar__header'>
                 <button className='btn btn-danger'>+ ADD PROJECT</button>
-                <img src={require("../../asserts/profile-header-icon.PNG")}></img>
+                <img src={require("../../asserts/profile-header-icon.PNG")} alt="header-icon"></img>
 
                 <div className='right-side-bar__details'>
                     <div className='right-side-bar__details__name'>{firstname === "" ? "please set name" : firstname}</div>
@@ -18,7 +18,7 @@ const Rightsidebar = (props) => {
             </div>
             <div className='right-side-bar__display-section'>
                 <div className='profile-pic-section'>
-                    <img src={require("../../asserts/profile-pic.PNG")}></img>
+                    <img src={require("../../asserts/profile-pic.PNG")} alt="profile-pic"></img>
                 </div>
                 <div className='proile-name-section'>
                     <div className='display-name'>

@@ -10,7 +10,7 @@ export const LeftSideBar = () => {
                 </a>
                 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                     <div class="offcanvas-header">
-                        <img src={require("../../../src/asserts/kyro.PNG")}></img>
+                        <img src={require("../../../src/asserts/kyro.PNG")} alt="kyro-logo"></img>
                         <button type="button" class="text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><i class="fa fa-solid fa-bars"></i></button>
                     </div>
                     <div class="offcanvas-body px-5">
